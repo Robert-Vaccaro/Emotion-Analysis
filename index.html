@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Emotion Analysis</title>
+      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="jquery.toast.min.css">
+      <link rel="stylesheet" href="loader.css">
+      <link rel="stylesheet" href="textarea.css">
+   </head>
+   <body>
+      <div class="area" >
+         <div class="bg"></div>
+         <div class="bg bg2"></div>
+         <div class="bg bg3"></div>
+         <div class='cool'>
+            <div class="center-outer">
+               <div class="center-inner">
+                  <div class="bubbles">
+                     <h1>Emotion Analysis</h1>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="wrapper hidden">
+                  <form id="paper">
+                     <h2>Tell me about your day!</h2>
+                     <textarea class = 'enteredText  hidden' placeholder="My day was..." id="text" name="text" rows="4" style="overflow: hidden; word-wrap: break-word; resize: none; height: 400px; "></textarea>
+                     <br>
+                     <input id="button" type="submit" value="Analyze!">
+                  </form>
+               </div>
+               <div class='starts'>
+                  <form id='start'>
+                     <input class="startButton" type="submit" value="Start?">
+                  </form>
+               </div>
+               <section id='dank' class="results hidden">
+               </section>
+               <div id="circle_container">
+                  <div id="stars"></div>
+                  <div id="load_wrapper">
+                     <div id="sun"></div>
+                     <div id="moon"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div >
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <script src="loader.js"></script>
+      <script src="jquery.toast.min.js"></script>
+      <script src="index.js"></script>
+   </body>
+</html>
