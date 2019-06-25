@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color:white;
+    padding-bottom: 10px;
+}
+h2{
+    padding-bottom: 10px;
+    color:white;
+    text-align: center;
+}
+h3{
+    padding-bottom: 10px;
+    color:white;
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+p{
+    padding-bottom: 6px;
+    color:white;
+    text-align: center;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.newLine{
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.hidden {
+    display: none;
+}
+input{
+    width:90%;
+}
+.enteredText{
+    width:90%;
+    color: black;
+}
+.results{
+    max-width:700px;
+    text-align: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newEmotion{
+    width: 100%;
+    font-size: 30px;
+    word-break:break-all;
+}
+.area{
+    display:border-block;
+}
+.starts{
+    max-width:700px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.startButton {
+    cursor:pointer;
+    width: 100%;
+    margin-top:20px;
+    float:left;
+    text-align:center;
+    height:40px;
+    padding-left:24px;
+    padding-right:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    color:#FFF;
+    text-shadow: 0px -1px 0px #000000;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    border-top:1px solid #FFF;
+    -webkit-box-shadow: 0px 2px 14px #000;
+    box-shadow: 0px 2px 14px #000;
+    background-color: #62add6;
+    background-image:url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
+    background-repeat:repeat-x;
+}
+.startButton:hover {
+    background-color: #82bfe0;
+}
+.startButton:active {
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+.startButton:focus {
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+/* Non essential CSS - Just for example centering */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.center-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.center-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+/* Essential CSS - Makes the effect work */
+.bubbles {
+    display: inline-block;
+    font-family: arial;
+    position: relative;
+}
+.bubbles h1 {
+    position: relative;
+    margin: 1em 0 0;
+    font-family: 'Luckiest Guy', cursive;
+    color: #fff;
+    z-index: 2;
+}
+.individual-bubble {
+    position: absolute;
+    border-radius: 100%;
+    bottom: 10px;
+    background-color: lightblue;
+    z-index: 1;
+}
+html {
+    height:100%;
+}
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+.bg3 {
+    animation-duration:5s;
+}
+.content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+ @keyframes slide {
+     0% {
+         transform:translateX(-25%);
+    }
+     100% {
+         transform:translateX(25%);
+    }
+}
