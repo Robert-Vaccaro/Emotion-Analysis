@@ -1,4 +1,7 @@
-Here is my [live demo](https://robert-vaccaro.github.io/Emotion-Analysis/)!
+
+# Emotion Anlysis #
+
+Here is the [live demo](https://robert-vaccaro.github.io/Emotion-Analysis/)!
 
 
 
@@ -33,7 +36,7 @@ Once they click the start button, they will be taken to
 the emotion anaysis portion where there will be a title "Emotion Analysis", a 
 header asking to "tell me about your day" then there will 
 be a text area with the placeholder "my day was..." then 
-a analyze button that will analyze the entry.
+an analyze button that will analyze the entry.
 
 #### Third View: ####
  
